@@ -18,6 +18,7 @@ def fibonacci(n: int) -> int:
     else:
         return fibonacci(n - 1) + fibonacci(n - 2)
 
+# Testa a função, solicitando ao usuário o valor de n
 if __name__ == "__main__":
     n = int(input("Digite o valor de n: "))
     print(f"O {n}-ésimo valor da sequência de Fibonacci é {fibonacci(n)}")
