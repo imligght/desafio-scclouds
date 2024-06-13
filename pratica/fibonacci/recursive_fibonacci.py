@@ -19,6 +19,15 @@ def fibonacci(n: int) -> int:
         return fibonacci(n - 1) + fibonacci(n - 2)
 
 # Testa a função, solicitando ao usuário o valor de n
+# até que o usuário digite 'q' para sair do programa
 if __name__ == "__main__":
-    n = int(input("Digite o valor de n: "))
-    print(f"O {n}-ésimo valor da sequência de Fibonacci é {fibonacci(n)}")
+    while True:
+        n = input("Digite o valor de n ou digite 'q' para sair do programa: ")
+        if n.lower() == 'q':
+            break
+        if not n.isdigit():
+            print("n deve ser um número inteiro não negativo!")
+            continue
+        n = int(n)
+        print(f"O {n}-ésimo valor da sequência de Fibonacci é {fibonacci(n)}")
+    print("Até a próxima!")

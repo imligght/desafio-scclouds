@@ -17,7 +17,7 @@ def fibonacci(n: int) -> int:
     # Caso contrário, calcula o n-ésimo valor da sequência de Fibonacci
     a = 0  # Valor inicial da sequência de Fibonacci
     b = 1  # Segundo valor da sequência de Fibonacci
-    for _ in range(2, n + 1):  # Como já temos os dois primeiros valores, começamos a partir do terceiro
+    for _ in range(2, n + 1):  # Como já temos os dois primeiros valores, começamos a partir do terceiro (index 2)
         result = a + b  # Calcula o próximo valor da sequência de Fibonacci
         a = b  # Atualiza o primeiro valor
         b = result  # Atualiza o segundo valor
@@ -26,6 +26,15 @@ def fibonacci(n: int) -> int:
     return result
 
 # Testa a função, solicitando ao usuário o valor de n
+# até que o usuário digite 'q' para sair do programa
 if __name__ == "__main__":
-    n = int(input("Digite o valor de n: "))
-    print(f"O {n}-ésimo valor da sequência de Fibonacci é {fibonacci(n)}")
+    while True:
+        n = input("Digite o valor de n ou digite 'q' para sair do programa: ")
+        if n.lower() == 'q':
+            break
+        if not n.isdigit():
+            print("n deve ser um número inteiro!")
+            continue
+        n = int(n)
+        print(f"O {n}-ésimo valor da sequência de Fibonacci é {fibonacci(n)}")
+    print("Até a próxima!")
