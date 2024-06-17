@@ -7,12 +7,20 @@ class PrimeNumbers:
     def is_prime(self, k: int) -> bool:
         """Método que verifica se um número k é primo."""
 
-        if k <= 2:
-            return k == 2  # O único número primo menor ou igual a 2 é 2
+        if k <= 1:
+            return False  # Nenhum número menor ou igual a 1 é primo
 
-        # Verifica se k é divisível por algum número entre 2 e k - 1, isto é,
-        # se o resto da divisão de k por i é igual a 0 para algum i entre 2 e k - 1
-        for i in range(2, k):
+        if k == 2:
+            return True  # O único número primo par é 2
+
+        if k % 2 == 0:
+            return False  # Nenhum número par diferente de 2 é primo
+
+
+        max_divisor = int(k ** 0.5) + 1  # Só precisamos verificar divisores até a raiz quadrada de k
+
+        # Começamos a verificar divisores a partir de 3, pulando os números pares
+        for i in range(3, max_divisor, 2):
             if k % i == 0:
                 return False  # Se k for divisível por algum número entre 2 e k - 1, então k não é primo
         return True  # Caso contrário, k é primo
@@ -25,7 +33,7 @@ class PrimeNumbers:
 
         # Se n for 0 ou 1, não existem números primos antecedentes a ele
         # então a lista de números primos é vazia
-        if n == 0 or n == 1:
+        if n <= 1:
             self.__prime_numbers = []
             return
 
