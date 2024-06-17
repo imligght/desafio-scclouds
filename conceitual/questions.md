@@ -1,8 +1,8 @@
 # Questões Conceituais
 
-1 - Diferenciar as camadas 2 e 3 do modelo OSI, e indicar os protocolos utilizados para endereçamento nestas camadas.
+##### 1 - Diferenciar as camadas 2 e 3 do modelo OSI, e indicar os protocolos utilizados para endereçamento nestas camadas.
 
-**Resposta:** O modelo OSI é (Open System Interconnection) é uma estrutura teórica dividida em camadas (sete camadas) desenvolvida para padronizar as funções de comunicação de sistemas de computação sem depender de suas estruturas internas e tecnologias específicas. Em seguida, darei uma breve explicação sobre as camadas 3 e 2 e destacarei suas principais diferenças:
+**Resposta:** O modelo OSI é (Open System Interconnection) é uma estrutura teórica dividida em camadas (sete camadas) desenvolvida para padronizar as funções de comunicação de sistemas de computação sem depender de suas estruturas internas e tecnologias específicas. Na sequência, darei uma breve explicação sobre as camadas 3 e 2 e destacarei suas principais diferenças:
 
 ## Camada 3: camada de rede
 A camada de rede é encarregada de viabilizar a transferência de dados entre redes distintas. Quando dois dispositivos estão se comunicando dentro da mesma rede, a função dessa camada torna-se desnecessária. No dispositivo remetente, a camada de rede fragmenta os segmentos provenientes da camada de transporte em menores unidades chamadas pacotes, e no dispositivo receptor, ela recompõe esses pacotes. Além disso, a camada de rede determina a rota física mais eficiente para que os dados alcancem seu destino, processo conhecido como roteamento.
@@ -53,7 +53,7 @@ Agora que já temos uma ideia do que se trata cada uma das camadas, podemos agor
 
 
 
-2 - Qual a diferença entre adotar uma solução proprietária como o sistema operacional Windows quando comparado a adoção de uma solução OpenSource como o sistema operacional Ubuntu? Quais seriam os pontos negativos e positivos de cada abordagem?
+##### 2 - Qual a diferença entre adotar uma solução proprietária como o sistema operacional Windows quando comparado a adoção de uma solução OpenSource como o sistema operacional Ubuntu? Quais seriam os pontos negativos e positivos de cada abordagem?
 
 **Resposta:** A adoção de soluções proprietárias como o sistema operacional Windows, em comparação com soluções OpenSource como o sistema operacional Ubuntu, envolvem muitos pontos a serem levados em consideração. Ademais, a melhor opção pode ser relativa, dependendo da necessidade específica de cada usuário ou empresa. Os principais pontos a serem levados em consideração estão listados abaixo:
 
@@ -105,5 +105,23 @@ Portanto, na hora de decidir entre utilizar uma solução proprietária ou uma s
 
 
 
-3 - O que seria um projeto OpenSource? Como empresas podem adotar tais tecnologias e o que isso acarreta?
-**Resposta:**
+##### 3 - O que seria um projeto OpenSource? Como empresas podem adotar tais tecnologias e o que isso acarreta?
+
+**Resposta:** Um projeto OpenSource é um termo na língua inglesa que significa "código aberto". Quando um projeto é OpenSource, isso significa que qualquer um pode ver, usar, modificar e distribuir o projeto por praticamente qualquer motivo. OpenSource é hoje em dia um movimento tecnológico e uma forma de trabalho que vai além da produção de software e é super poderoso porque diminiu as barreiras para adoção do projeto, o que permite às ideias a se espalharem rapidamente. OpenSource é o oposto dos projetos de software proprietário, nos quais os códigos fontes são de propriedade privada de uma empresa.
+Empresas podem adotar tecnologias OpenSource de algumas maneiras, como:
+
+1. **Utilização direta:** Empresas podem adotar softwares OpenSource diretamente em seus sistemas. Alguns exemplos podem ser citados como sistemanas operacionais (como Linux), servidores web (Como Apache), bancos de dados (como MySQL), e muitas outras ferramentas e bibliotecas.
+
+2. **Utilização customizada:** Empresas também podem adotar softwares OpenSource em seus sistemas alterando algumas partes de seu código fonte, para que o projeto melhor se aplique às necessidades específicas da empresa.
+
+3. **Contribuição:** Empresas podem até mesmo contribuir para projetos OpenSource, enviando correção de bugs, novos recursos e ferramentas, melhorias de desempenho, etc. Contribuir para a comunidade pode trazer benefícios em termos de reputação e garantir que as mudanças desejadas sejam integradas ao projeto principal.
+
+Ademais, como conclusão, podemos relembrar os seus benefícios já citados neste arquivo anteriormente, como: **Custo** - OpenSource é geralmente gratuito. **Flexibilidade** - projetos OpenSource podem ser modificados para se adequar às necessidades da empresa. Segurança - OpenSource permite que muitos olhos revisem o código, potencialmente identificando e corrigindo erros rapidamente. Porém, também existem desafios na adoção de softwares OpenSource, como:
+
+1. **Suporte e manutenção:** Pode ser necessário investir em uma equipe interna para suporte e manutenção.
+
+2. **Segurança:** Embora a transparência possa aumentar a segurança, também significa que possíveis vulnerabilidades são visíveis para todos, inclusive para pessoas mal intencionadas.
+
+3. **Qualidade variável:** Nem todos os projetos OpenSource têm a mesma qualidade, alguns podem não ser adequados para o uso em produção. Revisão interna pode ser necessária antes de decidir adotar um software OpenSource.
+
+4. **Licenciamento:** É importante entender e cumprir as condições das licenças OpenSource, pois algumas têm requisitos específicos que podem impactar a forma como o software pode ser usado e distribuído.
