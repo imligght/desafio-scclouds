@@ -101,27 +101,30 @@ Agora que já temos uma ideia do que se trata cada uma das camadas, podemos agor
 
 4. **Consistência:** A qualidade e a usabilidade de softwares OpenSource podem variar de projeto para projeto, dependendo da maturidade e do nível de desenvolvimento do grupo.
 
-Portanto, na hora de decidir entre utilizar uma solução proprietária ou uma solução OpenSource, é necessário entender as suas necessidades específicas e escolher aquele que mais se encaixa no seu perfil.
+Portanto, na hora de decidir entre utilizar uma solução proprietária ou uma solução OpenSource, é necessário entender as suas necessidades específicas e escolher aquela que mais se encaixa no seu perfil.
 
 
 
 ##### 3 - O que seria um projeto OpenSource? Como empresas podem adotar tais tecnologias e o que isso acarreta?
 
 **Resposta:** Um projeto OpenSource é um termo na língua inglesa que significa "código aberto". Quando um projeto é OpenSource, isso significa que qualquer um pode ver, usar, modificar e distribuir o projeto por praticamente qualquer motivo. OpenSource é hoje em dia um movimento tecnológico e uma forma de trabalho que vai além da produção de software e é super poderoso porque diminiu as barreiras para adoção do projeto, o que permite às ideias a se espalharem rapidamente. OpenSource é o oposto dos projetos de software proprietário, nos quais os códigos fontes são de propriedade privada de uma empresa.
-Empresas podem adotar tecnologias OpenSource de algumas maneiras, como:
 
-1. **Utilização direta:** Empresas podem adotar softwares OpenSource diretamente em seus sistemas. Alguns exemplos podem ser citados como sistemanas operacionais (como Linux), servidores web (Como Apache), bancos de dados (como MySQL), e muitas outras ferramentas e bibliotecas.
+Empresas podem adotar tecnologias OpenSource de algumas maneiras diferentes, como:
+
+1. **Utilização direta:** Empresas podem adotar softwares OpenSource diretamente em seus sistemas. Alguns exemplos podem ser citados como sistemas operacionais (como Linux), servidores webc(como Apache), bancos de dados (como MySQL), e muitas outras ferramentas e bibliotecas.
 
 2. **Utilização customizada:** Empresas também podem adotar softwares OpenSource em seus sistemas alterando algumas partes de seu código fonte, para que o projeto melhor se aplique às necessidades específicas da empresa.
 
 3. **Contribuição:** Empresas podem até mesmo contribuir para projetos OpenSource, enviando correção de bugs, novos recursos e ferramentas, melhorias de desempenho, etc. Contribuir para a comunidade pode trazer benefícios em termos de reputação e garantir que as mudanças desejadas sejam integradas ao projeto principal.
 
-Ademais, como conclusão, podemos relembrar os seus benefícios já citados neste arquivo anteriormente, como: **Custo** - OpenSource é geralmente gratuito. **Flexibilidade** - projetos OpenSource podem ser modificados para se adequar às necessidades da empresa. Segurança - OpenSource permite que muitos olhos revisem o código, potencialmente identificando e corrigindo erros rapidamente. Porém, também existem desafios na adoção de softwares OpenSource, como:
+Ademais, como conclusão, podemos relembrar os seus benefícios já citados neste arquivo anteriormente, como: **Custo** - OpenSource é geralmente gratuito. **Flexibilidade** - projetos OpenSource podem ser modificados para se adequar às necessidades da empresa. **Segurança** - OpenSource permite que muitos olhos revisem o código, potencialmente identificando e corrigindo erros rapidamente. Porém, também existem desafios na adoção de softwares OpenSource, como:
 
-1. **Suporte e manutenção:** Pode ser necessário investir em uma equipe interna para suporte e manutenção.
+1. **Suporte técnico e manutenção:** Pode ser necessário investir em uma equipe interna para suporte e manutenção.
 
 2. **Segurança:** Embora a transparência possa aumentar a segurança, também significa que possíveis vulnerabilidades são visíveis para todos, inclusive para pessoas mal intencionadas.
 
 3. **Qualidade variável:** Nem todos os projetos OpenSource têm a mesma qualidade, alguns podem não ser adequados para o uso em produção. Revisão interna pode ser necessária antes de decidir adotar um software OpenSource.
 
 4. **Licenciamento:** É importante entender e cumprir as condições das licenças OpenSource, pois algumas têm requisitos específicos que podem impactar a forma como o software pode ser usado e distribuído.
+
+Em resumo, a adoção de tecnologias OpenSource oferece às empresas vantagens como redução de custos, flexibilidade e maior segurança, graças à transparência do código. Contribuir para esses projetos também pode melhorar a reputação e atender necessidades específicas. Contudo, é crucial estar atento aos desafios, como a necessidade de suporte interno, gestão de segurança e compreensão das licenças. Com uma abordagem estratégica, as empresas podem aproveitar ao máximo os benefícios do OpenSource.
