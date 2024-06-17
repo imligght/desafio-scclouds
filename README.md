@@ -7,8 +7,7 @@ Neste repositório estão disponibilizadas as soluções desenvolvidas por mim p
 
 ### Explicações gerais
 Para este desafio decidi utilizar a linguagem de programação Python por ser a linguagem orientada a objetos que mais tenho domínio atualmente.
-Gostaria também de enfatizar que, apesar de serem solicitadas funções para as resoluções dos problemas, decidi por criar classes na resolução dos problemas de números primos recursiva e e números primos linear. Tomei tal decisão por questões de legibilidade, organização do código e para seguir mais fielmente as ideias ligadas a orientação a objetos.
-Os problemas foram separados em pastas para fins de organização.
+Gostaria também de enfatizar que, apesar de serem solicitadas funções para as resoluções dos problemas, decidi por criar classes na resolução dos problemas de números primos recursiva e e números primos linear. Tomei tal decisão por questões de legibilidade, organização do código e para seguir mais fielmente as ideias ligadas à orientação a objetos.
 
 ### Uso
 Para utilizar e testar o programa pode-se seguir os seguintes passos:
@@ -37,4 +36,4 @@ Seguindo os dois passos anteriores você deve ser capaz de testar cada solução
 ## Parte Conceitual
 
 ### Explicações gerais
-Para a parte conceitual, decidi responder as questões em um arquivo de Markdown e também postá-lo no repositório.
+Para a parte conceitual, decidi responder às questões em um arquivo de Markdown e também postá-lo no repositório.
