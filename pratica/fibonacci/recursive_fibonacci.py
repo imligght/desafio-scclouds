@@ -23,11 +23,15 @@ def fibonacci(n: int) -> int:
 if __name__ == "__main__":
     while True:
         n = input("Digite o valor de n ou digite 'q' para sair do programa: ")
+
         if n.lower() == 'q':
             break
+
         if not n.isdigit():
             print("n deve ser um número inteiro não negativo!")
             continue
+
         n = int(n)
         print(f"O {n}-ésimo valor da sequência de Fibonacci é {fibonacci(n)}")
+
     print("Até a próxima!")

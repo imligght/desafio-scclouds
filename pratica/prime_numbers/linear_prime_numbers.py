@@ -67,11 +67,14 @@ if __name__ == "__main__":
     prime_numbers = PrimeNumbers()
     while True:
         n = input("Digite o valor de n ou 'q' para sair do programa: ")
+
         if n.lower() == 'q':
             break
+
         if not n.isdigit():
             print("n deve ser um número inteiro não negativo!")
             continue
+
         n = int(n)
         prime_numbers.calculate_prime_numbers(n)
         print(prime_numbers)

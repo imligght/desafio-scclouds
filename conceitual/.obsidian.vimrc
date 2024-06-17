@@ -1,2 +1,0 @@
-
-inoremap jk <Esc>
